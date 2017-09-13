@@ -7,8 +7,18 @@ namespace WebApplicationTC.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethodSum()
         {
+            Common Commonobj = new Common();
+            int Sum = Commonobj.Sum(10, 33);
+            Assert.AreEqual(343, Sum);
+        }
+        [TestMethod]
+        public void TestMethodSup()
+        {
+            Common Commonobj = new Common();
+            int Sum = Commonobj.Sup(55, 44);
+            Assert.AreEqual(11, Sum);
         }
     }
 }
