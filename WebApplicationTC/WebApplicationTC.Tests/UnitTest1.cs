@@ -11,7 +11,7 @@ namespace WebApplicationTC.Tests
         {
             Common Commonobj = new Common();
             int Sum = Commonobj.Sum(10, 33);
-            Assert.AreEqual(343, Sum);
+            Assert.AreEqual(43, Sum);
         }
         [TestMethod]
         public void TestMethodSup()
