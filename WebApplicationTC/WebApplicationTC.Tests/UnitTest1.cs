@@ -18,7 +18,7 @@ namespace WebApplicationTC.Tests
         {
             Common Commonobj = new Common();
             int Sum = Commonobj.Sup(55, 44);
-            Assert.AreEqual(11, Sum);
+            Assert.AreEqual(122, Sum);
         }
     }
 }
